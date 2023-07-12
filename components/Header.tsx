@@ -82,7 +82,7 @@ export default function Header() {
                     isOpen ? "text-white" : "text-black"
                   } , text-xl duration-500`}
                 >
-                  Sawix
+                  Einfach Geiles Marketing
                 </span>
               </Link>
             </button>

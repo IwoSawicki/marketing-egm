@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row  mx-auto ">
         <div className=" md:w-2/5 pt-8 md:pt-12">
           <p className="font-IvyPresto text-2xl md:text-3xl font-normal">
-            Bei Sawix gestalten wir wunderschöne Websites, erstellen auffällige
+            Bei EGM gestalten wir wunderschöne Websites, erstellen auffällige
             Videos und liefern Designs, die dein Unternehmen{" "}
             <span className="inline-block">
               <Image
