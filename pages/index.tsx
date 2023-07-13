@@ -44,31 +44,26 @@ export default function Home() {
         <section>
           <Hero />
         </section>
-
+        lol
         {/* Portfolio */}
         <section>
           <PortfolioNeu />
         </section>
-
         {/* About */}
         {/* <section>
           <About />
         </section> */}
-
         {/* Services */}
         <section>
           <Services />
         </section>
-
         {/* Jobs */}
         {/* <section>
           <Jobs />
         </section> */}
-
         <section>
           <Prozess />
         </section>
-
         {/* Footer */}
       </main>
       <Footer />

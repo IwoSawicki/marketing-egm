@@ -6,12 +6,13 @@ import { useState, useEffect } from "react";
 // import Logo from "../public/Sawix-Logo.svg";
 import SawixIcon from "@/public/sawix-icon.svg";
 import ImgTemp from "@/public/Footer-Img.png";
-import { Router, useRouter } from "next/router";
+// import { useRouter } from "next/navigation";
 
 export default function Header() {
   //Menu Popup State
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
+  //daquf
+  // const router = useRouter();
 
   // Menu Popup Links
   const navLinks = [
@@ -141,13 +142,13 @@ export default function Header() {
                 {/* LINK LOOP */}
                 {navLinks.map(({ link, name }) => (
                   <div className="flex items-center">
-                    <div
+                    {/* <div
                       className={` ${
                         router.pathname === link
                           ? "bg-blue-600 h-3 w-3 mr-3"
                           : "w-0 h-0 bg-transparent mr-0"
                       }  rounded-full duration-300 delay-500`}
-                    ></div>
+                    ></div> */}
                     <button
                     // onClick={() => setIsOpen(false)}
                     >
